@@ -341,6 +341,7 @@ public class Client {
                 e.printStackTrace();
             }
         }
+        System.out.println("Search complete, found " + files.length + " matches");
         return files.length;
     }
 
